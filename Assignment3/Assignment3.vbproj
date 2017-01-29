@@ -72,11 +72,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Form1-Assignment3.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Form1-Assignment3.Designer.vb">
+      <DependentUpon>Form1-Assignment3.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2-Array.Designer.vb">
+      <DependentUpon>Form2-Array.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2-Array.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3-Collection.Designer.vb">
+      <DependentUpon>Form3-Collection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3-Collection.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,6 +108,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1-Assignment3.resx">
+      <DependentUpon>Form1-Assignment3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2-Array.resx">
+      <DependentUpon>Form2-Array.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3-Collection.resx">
+      <DependentUpon>Form3-Collection.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

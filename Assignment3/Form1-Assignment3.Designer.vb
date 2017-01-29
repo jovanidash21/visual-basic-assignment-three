@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class AssignmentForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -68,7 +68,7 @@ Partial Class Form1
         Me.CollectionButton.Text = "Collection"
         Me.CollectionButton.UseVisualStyleBackColor = False
         '
-        'Form1
+        'AssignmentForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -77,7 +77,7 @@ Partial Class Form1
         Me.Controls.Add(Me.CollectionButton)
         Me.Controls.Add(Me.ArrayButton)
         Me.Controls.Add(Me.AssignmentLabel)
-        Me.Name = "Form1"
+        Me.Name = "AssignmentForm"
         Me.Text = "Assignment No. 3"
         Me.ResumeLayout(False)
         Me.PerformLayout()
