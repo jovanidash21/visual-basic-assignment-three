@@ -72,11 +72,14 @@ Partial Class AssignmentForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(22, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(484, 461)
         Me.Controls.Add(Me.CollectionButton)
         Me.Controls.Add(Me.ArrayButton)
         Me.Controls.Add(Me.AssignmentLabel)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
         Me.Name = "AssignmentForm"
         Me.Text = "Assignment No. 3"
         Me.ResumeLayout(False)
