@@ -30,6 +30,8 @@ Partial Class CollectionForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(14, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(22, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(484, 461)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
         Me.Name = "CollectionForm"
         Me.Text = "Collection"
         Me.ResumeLayout(False)
