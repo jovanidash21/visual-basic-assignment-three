@@ -24,10 +24,10 @@ Partial Class ArrayForm
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TaskDataGridView = New System.Windows.Forms.DataGridView()
-        Me.AddButton = New System.Windows.Forms.Button()
-        Me.ClearButton = New System.Windows.Forms.Button()
         Me.TaskOrder = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.TaskName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AddButton = New System.Windows.Forms.Button()
+        Me.ClearButton = New System.Windows.Forms.Button()
         Me.ArrayLabel = New System.Windows.Forms.Label()
         CType(Me.TaskDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -52,6 +52,19 @@ Partial Class ArrayForm
         Me.TaskDataGridView.RowHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.TaskDataGridView.Size = New System.Drawing.Size(460, 344)
         Me.TaskDataGridView.TabIndex = 0
+        '
+        'TaskOrder
+        '
+        Me.TaskOrder.HeaderText = "Order"
+        Me.TaskOrder.Name = "TaskOrder"
+        Me.TaskOrder.ReadOnly = True
+        Me.TaskOrder.Width = 50
+        '
+        'TaskName
+        '
+        Me.TaskName.HeaderText = "Task"
+        Me.TaskName.Name = "TaskName"
+        Me.TaskName.Width = 367
         '
         'AddButton
         '
@@ -82,19 +95,6 @@ Partial Class ArrayForm
         Me.ClearButton.TabIndex = 2
         Me.ClearButton.Text = "CLEAR ALL"
         Me.ClearButton.UseVisualStyleBackColor = False
-        '
-        'TaskOrder
-        '
-        Me.TaskOrder.HeaderText = "Order"
-        Me.TaskOrder.Name = "TaskOrder"
-        Me.TaskOrder.ReadOnly = True
-        Me.TaskOrder.Width = 50
-        '
-        'TaskName
-        '
-        Me.TaskName.HeaderText = "Task"
-        Me.TaskName.Name = "TaskName"
-        Me.TaskName.Width = 367
         '
         'ArrayLabel
         '
