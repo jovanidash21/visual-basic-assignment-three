@@ -20,3 +20,6 @@
 git clone https://github.com/jovanidash21/visual-basic-assignment-three.git
 ```
 * Open and Start using Visual Studio or any other alternative application.
+
+## License
+Licensed under [MIT](https://opensource.org/licenses/mit-license.php).
